@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Loto", sans-serif;
+    font-size: 17px;
+}
+
+h1 {
+    font-size: 65px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-size: 17px;
+}
+
+button {
+    padding: 14px 22px;
+    font-size: 17px;
+    background-color: #bb1010;
+    border: 2px solid #bb1010;
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+button:hover {
+    background-color: #bb101000;
+    letter-spacing: 5px;
+}
+
+section {
+    margin: 50px 0;
+}
+
+span {
+    height: 5px;
+    width: 170px;
+    background-color: #bb1010;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* custom selecttion */
+header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.68);
+    background-position: center;
+    background-blend-mode: multiply;
+    background-image: url(../images/md\ biddut\ hasan.jpg)
+}
+
+.navbar {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 55px;
+    align-items: center;
+    padding: 25px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo a {
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.logo a em {
+    font-weight: 100;
+}
+
+nav {}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 0 0 40px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* ==banner== */
+.banner {
+    padding: 200px 0 100px 0;
+    text-align: center;
+    color: white;
+}
+
+.banner h4 {
+    font-style: italic;
+    margin: 0 0 10px 0;
+}
+
+/* =EXPLORE MORE DESTINATIONOS= */
+
+
+
+.event-titl h2 {
+    text-align: center;
+    font-weight: 700;
+    margin: 30px 0 2px 0;
+}
+
+.event-titl span {
+    height: 5px;
+    width: 150px;
+    background-color: #bb1010;
+    display: block;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.event-main {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px 100px 0 100px;
+}
+
+.event {
+    padding: 20px;
+    text-align: center;
+}
+
+.event img {
+    height: 325px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 12.95px 12.95px 2.6px;
+}
+
+.event h3 {
+    margin: 30px 0 0 0;
+}
+
+.event p {
+    margin: 10px 0 0 0;
+    line-height: 27px;
+}
+
+.event a {
+    text-decoration: none;
+    color: red;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin: 27px 0 0 0;
+    display: inline-block;
+}
+
+/* ==EXPLORE THE WORLD */
+.explore-main {
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 255, 0.564);
+    background-position: center;
+    background-blend-mode: multiply;
+    background-image: url(../images/images\ \(5\).jpeg)
+}
+
+.explore-parent {
+    padding: 100px;
+    display: flex;
+}
+
+.explore {
+    width: 50%;
+}
+
+.explore h1 {
+    margin: 0 0 0 0;
+}
+
+.explore a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin: 27px 0 0 0;
+    display: inline-block;
+}
+
+/* tours */
+.tour-main {
+    padding: 0 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 35px;
+}
+
+.tour h4 {
+    margin: 0;
+}
+
+.tour p {
+    line-height: 27px;
+    text-align: justify;
+}
+
+.img1 {
+    height: 300px;
+    object-fit: cover;
+    margin: 0px 0 25px 0;
+    border-radius: 5px;
+
+}
+
+.img2 {
+    height: 390px;
+    object-fit: cover;
+    margin: 0px 0 25px 0;
+    border-radius: 8px;
+}
+
+/* ==footer== */
+footer {
+    padding: 50px;
+    text-align: center;
+    background-color: green;
+    color: rgba(0, 0, 0, 0.591);
+}
+
+.fab {
+    margin: 10px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.591);
+}
